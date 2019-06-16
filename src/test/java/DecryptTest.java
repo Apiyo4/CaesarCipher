@@ -14,4 +14,9 @@ public class DecryptTest {
         assertEquals("Bqjzp", testDecrypt.getName());
 
     }
+    @Test
+    public void newDecrypt_getsKey_1() {
+        Decrypt testDecrypt = new Decrypt(1, "Apiyo");
+        assertEquals(1, testDecrypt.getKey());
+    }
 }

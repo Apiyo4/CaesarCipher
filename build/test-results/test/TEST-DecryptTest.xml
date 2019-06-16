@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DecryptTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-16T11:09:22" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.002">
+<testsuite name="DecryptTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-16T11:12:03" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.002">
   <properties/>
   <testcase name="newDecrypt_instantiatesCorrectly" classname="DecryptTest" time="0.001"/>
-  <testcase name="newDecrypt_getsName_Bqzjp" classname="DecryptTest" time="0.0"/>
+  <testcase name="newDecrypt_getsName_Bqzjp" classname="DecryptTest" time="0.001"/>
+  <testcase name="newDecrypt_getsKey_1" classname="DecryptTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

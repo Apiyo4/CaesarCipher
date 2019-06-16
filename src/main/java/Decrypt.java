@@ -10,4 +10,8 @@ public class Decrypt {
     public String getName() {
         return mName;
     }
+
+    public int getKey() {
+        return mKey;
+    }
 }

@@ -28,6 +28,11 @@ public class App {
                 String results = decrypt.isDecrypt();
                 System.out.println(String.format("Your string is %s.", results));
                 System.out.println("-----------------------------------------------------------------");
+            } else if( (choice.equals("3")) || (choice.equalsIgnoreCase("Quit"))){
+
+                System.out.println("Goodbye");
+                programRunning = false;
+                System.out.println("-----------------------------------------------------------------");
             }
         }
 

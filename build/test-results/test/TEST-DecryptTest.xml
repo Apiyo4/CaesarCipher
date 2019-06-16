@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DecryptTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-16T10:59:19" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.002">
+  <properties/>
+  <testcase name="newDecrypt_instantiatesCorrectly" classname="DecryptTest" time="0.001"/>
+  <testcase name="newDecrypt_getsName_Apiyo" classname="DecryptTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

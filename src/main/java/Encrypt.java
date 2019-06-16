@@ -7,11 +7,11 @@ public class Encrypt {
         this.mName = mName;
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
-    public int getmKey() {
+    public int getKey() {
         return mKey;
     }
     public boolean nameContainsLetters(){

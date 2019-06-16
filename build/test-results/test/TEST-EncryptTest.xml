@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EncryptTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-16T10:47:25" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.005">
+<testsuite name="EncryptTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-16T10:49:47" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.007">
   <properties/>
-  <testcase name="newEncrypt_getsKey_1" classname="EncryptTest" time="0.003"/>
+  <testcase name="newEncrypt_getsKey_1" classname="EncryptTest" time="0.001"/>
   <testcase name="newEncrypt_keyIsValid" classname="EncryptTest" time="0.0"/>
   <testcase name="newEncrypt_nameContainsLetters" classname="EncryptTest" time="0.0"/>
   <testcase name="newEncrypt_isEncrypt_String" classname="EncryptTest" time="0.0"/>

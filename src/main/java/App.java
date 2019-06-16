@@ -33,6 +33,8 @@ public class App {
                 System.out.println("Goodbye");
                 programRunning = false;
                 System.out.println("-----------------------------------------------------------------");
+            } else{
+                System.out.println("You entered a wrong input");
             }
         }
 

@@ -26,4 +26,14 @@ public class Encrypt {
     public boolean keyIsValid(){
         return mKey >=1 && mKey<25;
     }
+    public String isEncrypt(){
+        String result = "";
+        for(int i = 0; i< mName.length(); i++){
+             char ch = mName.charAt(i);
+             char shifted = (char) (ch+mKey);
+             result += shifted;
+            }
+      return result;
+
+    }
 }

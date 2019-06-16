@@ -33,4 +33,10 @@ public class EncryptTest {
         Encrypt testEncrypt = new Encrypt(1, "Apiyo");
         assertTrue(testEncrypt.keyIsValid());
     }
+
+    @Test
+    public void newEncrypt_isEncrypt_String(){
+        Encrypt testEncrypt = new Encrypt(1, "Apiyo");
+        assertEquals("Bqjzp", testEncrypt.isEncrypt());
+    }
 }

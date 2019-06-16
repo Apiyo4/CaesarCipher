@@ -19,6 +19,15 @@ public class App {
                 String results = encrypt.isEncrypt();
                 System.out.println(String.format("Your string is %s.", results));
                 System.out.println("-----------------------------------------------------------------");
+            } else if((choice.equals("2")) || (choice.equalsIgnoreCase("Decrypt"))){
+                System.out.println("Enter a word to decrypt");
+                String strName = myConsole.readLine();
+                System.out.println("Enter a key to shift the letters");
+                int intKey = Integer.parseInt(myConsole.readLine());
+                Decrypt decrypt = new Decrypt(intKey, strName);
+                String results = decrypt.isDecrypt();
+                System.out.println(String.format("Your string is %s.", results));
+                System.out.println("-----------------------------------------------------------------");
             }
         }
 

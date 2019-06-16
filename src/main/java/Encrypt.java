@@ -6,4 +6,8 @@ public class Encrypt {
         this.mKey = mKey;
         this.mName = mName;
     }
+
+    public String getmName() {
+        return mName;
+    }
 }

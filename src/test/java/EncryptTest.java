@@ -8,4 +8,11 @@ public class EncryptTest {
         Encrypt testEncrypt = new Encrypt(1, "Apiyo");
         assertTrue(testEncrypt instanceof Encrypt);
     }
+
+    @Test
+    public void newEncrypt_getsName_Apiyo() {
+        Encrypt testEncrypt = new Encrypt(1, "Apiyo");
+        assertEquals("Apiyo", testEncrypt.getmName());
+
+    }
 }

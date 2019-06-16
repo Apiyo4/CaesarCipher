@@ -29,4 +29,9 @@ public class DecryptTest {
         Decrypt testDecrypt = new Decrypt(1, "Bqjzp");
         assertTrue(testDecrypt.keyIsValid());
     }
+    @Test
+    public void newDecrypt_isDecrypt_String(){
+        Decrypt testDecrypt = new Decrypt(1, "Bqjzp");
+        assertEquals("Apiyo", testDecrypt.isDecrypt());
+    }
 }

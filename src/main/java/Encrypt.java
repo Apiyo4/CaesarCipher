@@ -10,4 +10,8 @@ public class Encrypt {
     public String getmName() {
         return mName;
     }
+
+    public int getmKey() {
+        return mKey;
+    }
 }

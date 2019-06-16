@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EncryptTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-16T07:51:43" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.002">
+<testsuite name="EncryptTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-16T07:55:20" hostname="moringa-Lenovo-ideapad-330-15IKB" time="0.003">
   <properties/>
-  <testcase name="newEncrypt_getsName_Apiyo" classname="EncryptTest" time="0.001"/>
+  <testcase name="newEncrypt_getsKey_1" classname="EncryptTest" time="0.002"/>
+  <testcase name="newEncrypt_getsName_Apiyo" classname="EncryptTest" time="0.0"/>
   <testcase name="newEncrypt_instantiatesCorrectly" classname="EncryptTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

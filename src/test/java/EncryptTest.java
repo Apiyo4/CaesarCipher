@@ -15,4 +15,10 @@ public class EncryptTest {
         assertEquals("Apiyo", testEncrypt.getmName());
 
     }
+
+    @Test
+    public void newEncrypt_getsKey_1() {
+        Encrypt testEncrypt = new Encrypt(1, "Apiyo");
+        assertEquals(1, testEncrypt.getmKey());
+    }
 }

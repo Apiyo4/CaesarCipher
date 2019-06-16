@@ -3,11 +3,24 @@ import java.sql.SQLOutput;
 
 public class App {
     public static void main(String[] args) {
-        Console myConsole = System.console();
+        boolean programRunning = true;
         System.out.println("Welcome to Caesar Cipher!");
-        System.out.println("Feel free to choose any of the following options:");
-        System.out.println("1. Encrypt || 2. Decrypt || 3. Quit");
-        String choice = myConsole.readLine();
+        while(programRunning){
+            Console myConsole = System.console();
+            System.out.println("Choose any of the following options to continue:");
+            System.out.println("1. Encrypt || 2. Decrypt || 3. Quit");
+            String choice = myConsole.readLine();
+            if( (choice.equals("1")) || (choice.equalsIgnoreCase("Encrypt"))){
+                System.out.println("Enter a word to encrypt");
+                String strName = myConsole.readLine();
+                System.out.println("Enter a key to shift the letters");
+                int intKey = Integer.parseInt(myConsole.readLine());
+                Encrypt encrypt = new Encrypt(intKey, strName);
+                String results = encrypt.isEncrypt();
+                System.out.println(String.format("Your string is %s.", results));
+                System.out.println("-----------------------------------------------------------------");
+            }
+        }
 
     }
 }

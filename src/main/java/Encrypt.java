@@ -14,4 +14,13 @@ public class Encrypt {
     public int getmKey() {
         return mKey;
     }
+    public boolean nameContainsLetters(){
+        char[] chars =  mName.toCharArray();
+        for( char individualChars : chars){
+           if(!Character.isLetter(individualChars)){
+               return false;
+           }
+        }
+        return true;
+    }
 }

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26fcf76-c0ae-49a2-86b2-201431e07a7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encrypt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncryptTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,20 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="242">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +70,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Encrypt.java" />
         <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Encrypt.java" />
       </list>
     </option>
   </component>
@@ -174,7 +182,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EncryptTest - 2019.06.16 at 10h 41m 35s.xml">
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 51m 13s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 51m 23s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 51m 43s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 54m 37s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 55m 04s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 55m 11s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 10h 55m 20s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 11h 08m 58s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 11h 09m 09s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.06.16 at 11h 22m 13s.xml">
       <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -190,12 +225,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32868218" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,19 +247,25 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
           </folding>
         </state>
       </provider>

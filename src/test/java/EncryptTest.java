@@ -21,4 +21,10 @@ public class EncryptTest {
         Encrypt testEncrypt = new Encrypt(1, "Apiyo");
         assertEquals(1, testEncrypt.getmKey());
     }
+
+    @Test
+    public void newEncrypt_nameContainsLetters() {
+        Encrypt testEncrypt = new Encrypt(1, "Apiyo");
+        assertTrue(testEncrypt.nameContainsLetters());
+    }
 }

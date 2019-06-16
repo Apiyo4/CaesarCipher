@@ -14,4 +14,13 @@ public class Decrypt {
     public int getKey() {
         return mKey;
     }
+    public boolean nameContainsLetters(){
+        char[] chars =  mName.toCharArray();
+        for( char individualChars : chars){
+            if(!Character.isLetter(individualChars)){
+                return false;
+            }
+        }
+        return true;
+    }
 }

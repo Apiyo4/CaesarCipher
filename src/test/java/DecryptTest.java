@@ -5,13 +5,13 @@ import static org.junit.Assert.*;
 public class DecryptTest {
     @Test
     public void newDecrypt_instantiatesCorrectly() {
-        Encrypt testEncrypt = new Encrypt(1, "Apiyo");
-        assertTrue(testEncrypt instanceof Encrypt);
+        Decrypt testDecrypt = new Decrypt(1, "Bqjzp");
+        assertTrue(testDecrypt instanceof Decrypt);
     }
     @Test
-    public void newDecrypt_getsName_Apiyo() {
-        Encrypt testEncrypt = new Encrypt(1, "Apiyo");
-        assertEquals("Apiyo", testEncrypt.getName());
+    public void newDecrypt_getsName_Bqzjp() {
+        Decrypt testDecrypt = new Decrypt(1, "Bqjzp");
+        assertEquals("Bqjzp", testDecrypt.getName());
 
     }
 }

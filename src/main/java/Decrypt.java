@@ -7,7 +7,7 @@ public class Decrypt {
         this.mName = mName;
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 }

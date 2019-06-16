@@ -24,4 +24,9 @@ public class DecryptTest {
         Decrypt testDecrypt = new Decrypt(1, "Bqjzp");
         assertTrue(testDecrypt.nameContainsLetters());
     }
+    @Test
+    public void newDecrypt_keyIsValid() {
+        Decrypt testDecrypt = new Decrypt(1, "Bqjzp");
+        assertTrue(testDecrypt.keyIsValid());
+    }
 }

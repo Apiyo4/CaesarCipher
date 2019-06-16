@@ -23,4 +23,7 @@ public class Decrypt {
         }
         return true;
     }
+    public boolean keyIsValid(){
+        return mKey >=1 && mKey<25;
+    }
 }

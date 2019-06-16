@@ -6,7 +6,7 @@ public class App {
         Console myConsole = System.console();
         System.out.println("Welcome to Caesar Cipher!");
         System.out.println("Feel free to choose any of the following options:");
-        System.out.println("1. Encrypt a word || 2. Decrypt a word || 3. Quit");
+        System.out.println("1. Encrypt || 2. Decrypt || 3. Quit");
         String choice = myConsole.readLine();
 
     }

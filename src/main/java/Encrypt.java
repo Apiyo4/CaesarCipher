@@ -24,7 +24,7 @@ public class Encrypt {
         return true;
     }
     public boolean keyIsValid(){
-        return mKey >=1 && mKey<25;
+        return mKey >=1 && mKey<26;
     }
     public String isEncrypt(){
         String result = "";
